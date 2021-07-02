@@ -21,6 +21,8 @@ public class DatabaseInteraction {
     Database.randomPersonsProfile(jerry);
     Database.seeTheDatabase();
 
+    Database.deleteAPersonsProfile("Bob");
+    Database.seeTheDatabase();
 
 
 
